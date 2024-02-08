@@ -8,6 +8,6 @@
 
 .container{
   width: 100vw;
-  min-height: 100vh;
-  background: #ced8ff;
+  min-height: 1000px;
+  background: whitesmoke;
 }

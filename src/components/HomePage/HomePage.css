@@ -1,0 +1,23 @@
+.HomePage
+{
+    text-align: center;
+    padding-top: 125px;
+}
+.Home-Img
+{
+    position: absolute;
+    top: 70px;
+    left:10px;
+}
+.Home-Text
+{
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+.HomePicture
+{
+    width: 500px;
+    height: 700px;
+    overflow-y: scroll;
+}
