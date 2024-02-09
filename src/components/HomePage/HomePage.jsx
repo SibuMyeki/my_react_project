@@ -12,8 +12,17 @@ const HomePage = () => {
                 <img className="HomePicture" src={image} alt="Home-Image" />
             </div>
             <div className="Home-Text">
-                <h1>Welcome to My Website!</h1>
-                <p>This is the homepage content.</p>
+                <div className="text-wrapper-5">Sibu Myeki</div>
+                <p className="i-m-web-developer">
+                    I&#39;m
+                    <br/> a web developer in training with a passion for creating 
+                    visually stunning and user-friendly websites.
+                </p>
+            </div>
+            <div className="Resume">
+                <div className="overlap-3">
+                    <div className="text-wrapper-6">Download Resume</div>
+                </div>
             </div>
         </section>
     );

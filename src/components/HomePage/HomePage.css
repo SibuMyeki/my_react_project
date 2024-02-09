@@ -20,4 +20,38 @@
     width: 500px;
     height: 700px;
     overflow-y: scroll;
+} 
+.Home-Text .text-wrapper-5{
+    color: 000000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+    left: 86px;
+    line-height: normal;
+    position: absolute;
+    top: 0  ;
 }
+.i-m-web-developer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .Resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .overlap-3 {
+    background-color: #007bff; /* Change to your desired background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .text-wrapper-6 {
+    color: #ffffff; /* Change to your desired text color */
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
