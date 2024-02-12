@@ -1,0 +1,29 @@
+* AboutPage.css */
+
+.about-me
+{
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+
+}
+
+.about-me h2 {
+  font-size: 24px; /* Adjust the heading font size */
+  color: #333; /* Adjust the heading color */
+  padding: 1000px;
+}
+
+.about-me p {
+  font-size: 16px; /* Adjust the paragraph font size */
+  line-height: 1.6; /* Adjust the line height for better readability */
+  color: #666; /* Adjust the paragraph color */
+}
+
+.AboutPicture
+{
+    position: absolute;
+    top: 900px;
+    left:10px;
+    border-radius: 50%;
+}
+ 

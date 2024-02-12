@@ -6,6 +6,8 @@ width: 100%;
     background: #F5E8C7;
     padding: 10px 7%;
     border-radius: 50px;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar{
