@@ -2,21 +2,22 @@
 
 .about-me
 {
-  max-width: 800px; /* Adjust the maximum width as needed */
+  max-width: 100px; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the content horizontally */
+  align-items: center;
+  
 
 }
 
-.about-me h2 {
-  font-size: 24px; /* Adjust the heading font size */
-  color: #333; /* Adjust the heading color */
-  padding: 1000px;
-}
 
 .about-me p {
   font-size: 16px; /* Adjust the paragraph font size */
+  font-family: helvetica;
   line-height: 1.6; /* Adjust the line height for better readability */
-  color: #666; /* Adjust the paragraph color */
+  color:black; /* Adjust the paragraph color */
+  padding-left: 60%;
+  
+  
 }
 
 .AboutPicture
@@ -25,5 +26,12 @@
     top: 900px;
     left:10px;
     border-radius: 50%;
+    width: 450px;
 }
- 
+
+.About-Text
+{
+    position: absolute;
+    top: 900px;
+    right: 300px;
+}

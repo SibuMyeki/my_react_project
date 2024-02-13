@@ -5,14 +5,14 @@ import AboutPage from './components/AboutPage/AboutPage';
 // app test
 const App = () => {
   return (
-    <div className='container'>
-      <Navbar/>
-      <HomePage />
-      <AboutPage />
-
-      
-      
+       
+    <div>
+        <Navbar/>
+        <HomePage />
+        <AboutPage />
     </div>
+        
+      
   );
 }
 
