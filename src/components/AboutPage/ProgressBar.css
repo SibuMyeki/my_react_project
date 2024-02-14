@@ -1,0 +1,47 @@
+.ProgressBar-Container
+{
+    width: 400px;
+    height: 25px;
+    position: relative;
+    border-radius: 50px;
+    background-color: rgb(185, 172, 172);
+}
+.ProgressBar
+{
+    width: 320px;
+    height: 25px;
+    position: relative;
+    background-color: #F5E8C7;
+    border-radius:  50px;
+}
+p{
+    color: black;
+    font-size:small;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.css-progressBar
+{
+    width: 260px;
+    height: 25px;
+    position: relative;
+    background-color: #F5E8C7;
+    border-radius:  50px;
+}
+.python-progressBar
+{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    background-color: #F5E8C7;
+    border-radius:  50px;
+}
+.javascript-progressBar
+{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    background-color: #F5E8C7;
+    border-radius:  50px;
+}

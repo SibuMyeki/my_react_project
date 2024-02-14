@@ -1,0 +1,11 @@
+.ProgressBar
+{
+    margin-bottom: 20px;
+}
+
+.ProgressBar-Position
+{
+    position: absolute;
+    top:1250px;
+    left: 670px;
+}
