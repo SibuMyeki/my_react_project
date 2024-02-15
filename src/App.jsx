@@ -7,6 +7,7 @@ import ProgressCSS from './components/AboutPage/ProgressCSS';
 import ProgressBarPython from './components/AboutPage/ProgressBarPython';
 import Javascript from './components/AboutPage/Javascript';
 import Java from './components/AboutPage/Java';
+import ContactPage from './components/ContactPage/ContactPage';
 
 import './App.css';
 // app test
@@ -42,9 +43,11 @@ const App = () => {
             </div>
             
         </div>
+        <ContactPage />
     
         
     </div>
+
         
       
   );
