@@ -8,7 +8,7 @@
     grid-template-rows: 150px 600px ;
     padding: 10px;
     position: absolute;
-    top: 1800px;
+    top: 2500px;
 }
 
 .ContactsContainer .GetInTouch
@@ -31,6 +31,7 @@
     margin-top:20px;
     margin-bottom: 20px;
     justify-content: center;
+    
 
 }
 .FindMe h2
@@ -39,6 +40,7 @@
     margin: auto;
     font-size: large;
     text-align:center;
+    padding-bottom: 70px;
 
 
 }
@@ -46,7 +48,10 @@
 {
     color: white;
     margin: auto;
+    
+    
 }
+
 .input-text
 {
     width: 400px;
@@ -57,7 +62,27 @@
     margin-top:20px;
     margin-bottom: 20px;
     justify-content: center;
-        
-     
     
+}   
+
+
+button.btn {
+    padding: 10px 20px;
+    background-color:rgb(136, 108, 71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+input[type='text'],
+input[type='email'],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+

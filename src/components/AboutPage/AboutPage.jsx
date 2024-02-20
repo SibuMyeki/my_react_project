@@ -5,14 +5,14 @@ import image from "./img4.jpg";
 
 function AboutPage() {
   return (
-    <div className="about-me">
+    <div  className="about-me">
 
       <div>
         <img className='AboutPicture' src={image} alt='About me picture' />
       </div>
-      <div className="About-Text">
+      <div id='About' className="About-Text">
             <div>
-                <p><strong>About Me</strong></p>
+                <p ><strong>About Me</strong></p>
                 <p>
                   I am a Mechanical Engineering Graduate with 3 years of experience working as a Maintenance Technician at City of Cape Town in the Water & Sanitation Department. 
                   I am doing a complete career overhaul, adventuring in the "tech" world. 
@@ -29,7 +29,7 @@ function AboutPage() {
 
 
   );
-}
+};
 
 export default AboutPage;
 

@@ -17,8 +17,7 @@ const App = () => {
         <Navbar/>
         <HomePage />
         <AboutPage />
-
-        <div className='ProgressBar-Position'>
+        <div id='Skills' className='ProgressBar-Position'>
           <h3>Skills</h3>
           <br />
             <div className='ProgressBar'>
@@ -44,7 +43,6 @@ const App = () => {
         </div>
         <ContactPage />
     
-        
     </div>
 
         

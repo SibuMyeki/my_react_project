@@ -3,7 +3,7 @@ import './ContactPage.css/'
 
 const ContactPage = () => {
 return (
-    <div className='ContactsContainer'>
+    <div id='Contacts' className='ContactsContainer'>
       <div className='GetInTouch'>
             <h1><strong>Get in touch</strong></h1>
             <span>Do you have a project in your mind, contact me here</span>
@@ -20,13 +20,14 @@ return (
 
     <div >
                 <div>
+                    
                     <div className='input-text'>
-                        <input type="text" />
+                        <input type="text" placeholder="Name"/>
                         <input type="text"  placeholder="Email" />
-                    </div>
-                    <div class="text-area">
                         <textarea placeholder="Message"></textarea>
                     </div>
+
+                    
                     <div >
                         <button class="btn">Send <i class="uil uil-message"></i></button>
                     </div>

@@ -7,7 +7,7 @@ import image from "./img1.jpg";
 
 const HomePage = () => {
     return (
-        <section className="HomePage">
+        <section id="Home" className="HomePage">
             <div className="Home-Img">
                 <img className="HomePicture" src={image} alt="Home-Image" />
             </div>
@@ -19,7 +19,6 @@ const HomePage = () => {
                     <br/> a web developer in training with a passion for creating 
                     visually stunning and user-friendly websites.
                 </p>
-                <div className="text-wrapper-6">Download Resume</div>
                 </div>
             </div>
                 <div className="Resume">
