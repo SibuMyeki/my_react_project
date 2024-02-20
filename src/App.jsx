@@ -8,9 +8,8 @@ import ProgressBarPython from './components/AboutPage/ProgressBarPython';
 import Javascript from './components/AboutPage/Javascript';
 import Java from './components/AboutPage/Java';
 import ContactPage from './components/ContactPage/ContactPage';
-
 import './App.css';
-// app test
+ // app test
 const App = () => {
   return (
        
