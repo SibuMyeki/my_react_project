@@ -8,6 +8,8 @@ import ProgressBarPython from './components/AboutPage/ProgressBarPython';
 import Javascript from './components/AboutPage/Javascript';
 import Java from './components/AboutPage/Java';
 import ContactPage from './components/ContactPage/ContactPage';
+import Projects from './components/Projects/Projects';
+
 import './App.css';
  // app test
 const App = () => {
@@ -17,6 +19,9 @@ const App = () => {
         <Navbar/>
         <HomePage />
         <AboutPage />
+        <Projects />
+
+        
         <div id='Skills' className='ProgressBar-Position'>
           <h3>Skills</h3>
           <br />

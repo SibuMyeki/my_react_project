@@ -1,0 +1,23 @@
+ .Projects{
+    margin-top: 1500px;
+    font-size: 16px ;
+ }
+.Projects p{
+    font-size: 16px;
+}
+
+ .Projects ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+
+ }
+ .Projects li{
+    background-color: rgb(136, 108, 71);
+    
+    
+ }
+ .Projects img{
+    width: 25em;
+    height: 25em;
+ }
