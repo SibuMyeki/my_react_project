@@ -1,27 +1,29 @@
-.HomePage
-{
+/* Default styles */
+.HomePage {
     text-align: center;
     padding-top: 125px;
 }
-.Home-Img
-{
+
+.Home-Img {
     position: absolute;
     top: 70px;
-    left:10px;
+    left: 10px;
+    border-radius: 30px 30px 30px 30px;
 }
-.Home-Text
-{
+
+.Home-Text {
     position: absolute;
     top: 300px;
-    right: 150px;
+    right: 8px;
 }
-.HomePicture
-{
+
+.HomePicture {
     width: 500px;
     height: 700px;
     overflow-y: scroll;
-} 
-.Home-Text .text-wrapper-5{
+}
+
+.Home-Text .text-wrapper-5 {
     color: 000000;
     font-family: Helvetica;
     font-size: 32px;
@@ -30,31 +32,88 @@
     left: 86px;
     line-height: normal;
     position: absolute;
-    top: 0  ;
+    top: 0;
 }
+
 .i-m-web-developer {
     font-size: 1.2rem;
     line-height: 1.5;
     text-align: center;
     font-family: Helvertica;
-  }
-  
-  .Resume {
+}
+
+.Resume {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background-color:#AC7088; /* Change to your desired background color */
+    background-color: #AC7088;
     padding: 10px 20px;
     border-radius: 50px;
     position: absolute;
     top: 400px;
-    right: 400px;
-    color: #ffffff; /* Change to your desired text color */
+    right: 230px;
+    color: #ffffff;
     font-size: 1.2rem;
     cursor: pointer;
-  }
-  .p{
+}
+
+.p {
     font-family: Helvetica;
     font-size: medium;
-  }
-  
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .HomePage {
+        padding-top: 50px;
+    }
+
+    .Home-Img {
+        top: 50px;
+    }
+
+    .Home-Text {
+        top: 200px;
+        right: 40px;
+         padding-left: 188px ;
+        margin-top: 50px;
+    }
+
+    .HomePicture {
+        width: 140px;
+        height: 250px;
+        margin-top: 150px;
+        border: #AC7088 solid 5px;
+        border-radius: 30px 30px 30px 30px ;
+    }
+
+    .Home-Text .text-wrapper-5 {
+        font-size: 24px;
+
+      
+    }
+
+    .Resume {
+        top: 300px;
+        right: 300px;
+       padding-left: 400px;
+        font-size: 16px;
+     
+    }
+
+    .Resume {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #AC7088;
+        padding: 10px 20px;
+        border-radius: 50px;
+        position: absolute;
+        top: 380px;
+        right: 40px;
+        color: #ffffff;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    
+}

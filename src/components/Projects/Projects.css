@@ -1,5 +1,5 @@
  .Projects{
-    margin-top: 1500px;
+    margin-top: 1800px;
     font-size: 16px ;
  }
 .Projects p{
@@ -21,3 +21,9 @@
     width: 25em;
     height: 25em;
  }
+
+ @media screen and (max-width: 768px) {
+ 
+
+
+}
