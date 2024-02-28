@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useRef } from 'react';
 import "./ContactPage.css/";
+import emailjs from 'emailjs-com';
 
 const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs
+      .sendForm('service_iej6yvf', 'template_q9zewbm', form.current, 'G12ed_t0df1GAIySu')
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert('Message sent successfully!');
+          form.current.reset(); // Clear the form
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div id="Contacts" className="ContactsContainer">
       <div className="GetInTouch">
@@ -22,17 +42,15 @@ const ContactPage = () => {
 
       <div>
         <div>
-          <div className="input-text">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-            <textarea placeholder="Message"></textarea>
-          </div>
-
-          <div>
-            <button class="btn">
-              Send <i class="uil uil-message"></i>
-            </button>
-          </div>
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+          </form>
         </div>
       </div>
     </div>
