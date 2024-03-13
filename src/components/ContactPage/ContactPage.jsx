@@ -20,7 +20,7 @@ const ContactPage = () => {
           console.log('FAILED...', error.text);
         },
       );
-  };
+  }; 
 
   return (
     <div id="Contacts" className="ContactsContainer">
@@ -32,11 +32,7 @@ const ContactPage = () => {
       </div>
       <div>
         <div>
-          <div className="FindMe">
-            <h2>Find Me</h2>
-            <p>Email: sibumyeki@gmail.com</p>
-            <p>Tel: +27 82 359 9715</p>
-          </div>
+          
         </div>
       </div>
 

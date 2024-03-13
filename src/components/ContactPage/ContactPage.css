@@ -1,15 +1,90 @@
-.ContactsContainer
-{
+/* Contact Page Container */
+.ContactsContainer {
     width: 98%;
     margin: auto;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 150px 600px ;
     padding: 10px;
-    position: absolute;
-    top: 2500px;
-}
+  }
+  
+  /* Get in Touch Section */
+  .GetInTouch {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .GetInTouch h1 strong {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .GetInTouch span {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Find Me Section */
+  .FindMe {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(136, 108, 71);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .FindMe h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .FindMe p {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Form Section */
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type='text'],
+  form input[type='email'],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type='submit'] {
+    padding: 10px 20px;
+    background-color: rgb(136, 108, 71);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type='submit']:hover {
+    background-color: #975e2b;
+  }
+
+/* Responsive navbar */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
 .ContactsContainer .GetInTouch
 {
@@ -19,12 +94,14 @@
 }
 .getInTouch h1 span
 {
-    color: black;    
+    color: black;
+          
 }
 .FindMe
 {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
+    font-size: x-small;
     background-color: rgb(136, 108, 71);
     border-radius: 15px;
     padding: 10px;
@@ -32,30 +109,11 @@
     margin-bottom: 20px;
     justify-content: center;
     
-
 }
-.FindMe h2
-{
-    color: white;
-    margin: auto;
-    font-size: large;
-    text-align:center;
-    padding-bottom: 70px;
-
-
-}
-.FindMe p
-{
-    color: white;
-    margin: auto;
-    
-    
-}
-
 .input-text
 {
-    width: 400px;
-    height: 300px;
+    width: 40px;
+    height: 50px;
     background-color: rgb(136, 108, 71);
     border-radius: 15px;
     padding: 10px;
@@ -85,4 +143,8 @@ textarea {
   width: 100%;
   margin-bottom: 10px;
 }
+    
 
+    
+
+}
